@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, MyDataSendingDelegateProtocol {
+class FirstViewController: UIViewController, MyDataSendingDelegateProtocol { //first you must define protocol
     
     @IBOutlet weak var receivedDataLabel: UILabel! 
     
@@ -16,7 +16,7 @@ class FirstViewController: UIViewController, MyDataSendingDelegateProtocol {
         
     }
     
-    func sendDataToFirstViewController(myData: String) {
+    func sendDataToFirstViewController(myData: String) { // you must use protocol func's
         self.receivedDataLabel.text = myData
     }
     
