@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol MyDataSendingDelegateProtocol {
+protocol MyDataSendingDelegateProtocol { //creating protocol
     func sendDataToFirstViewController(myData: String)
 }
 
@@ -16,7 +16,7 @@ class SecondViewController: UIViewController {
 
     @IBOutlet weak var dataTextField: UITextField!
     
-    var delegate: MyDataSendingDelegateProtocol? = nil
+    var delegate: MyDataSendingDelegateProtocol? = nil // defining protocol as a variable.
     
     
     override func viewDidLoad() {
@@ -26,7 +26,7 @@ class SecondViewController: UIViewController {
     }
     
 
-    @IBAction func sendDataButtonClicked(_ sender: Any) {
+    @IBAction func sendDataButtonClicked(_ sender: Any) { // defining buttonclicked function
         if self.delegate != nil && self.dataTextField.text != nil {
             let dataToBeSent = self.dataTextField.text
             self.delegate?.sendDataToFirstViewController(myData: dataToBeSent!)

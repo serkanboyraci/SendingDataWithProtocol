@@ -9,7 +9,7 @@ import UIKit
 
 class FirstViewController: UIViewController, MyDataSendingDelegateProtocol {
     
-    @IBOutlet weak var receivedDataLabel: UILabel!
+    @IBOutlet weak var receivedDataLabel: UILabel! 
     
     override func viewDidLoad() {
         super.viewDidLoad()
