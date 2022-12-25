@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		601E807829507E34001FD621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601E807729507E34001FD621 /* AppDelegate.swift */; };
-		601E807A29507E34001FD621 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601E807929507E34001FD621 /* SceneDelegate.swift */; };
 		601E807C29507E34001FD621 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601E807B29507E34001FD621 /* FirstViewController.swift */; };
 		601E807F29507E34001FD621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601E807D29507E34001FD621 /* Main.storyboard */; };
 		601E808129507E35001FD621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 601E808029507E35001FD621 /* Assets.xcassets */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		601E807429507E34001FD621 /* Bootcamp_Week3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamp_Week3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		601E807729507E34001FD621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		601E807929507E34001FD621 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		601E807B29507E34001FD621 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		601E807E29507E34001FD621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		601E808029507E35001FD621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				601E807729507E34001FD621 /* AppDelegate.swift */,
-				601E807929507E34001FD621 /* SceneDelegate.swift */,
 				601E807B29507E34001FD621 /* FirstViewController.swift */,
 				601E808B29507EBB001FD621 /* SecondViewController.swift */,
 				601E807D29507E34001FD621 /* Main.storyboard */,
@@ -144,7 +141,6 @@
 				601E808C29507EBB001FD621 /* SecondViewController.swift in Sources */,
 				601E807C29507E34001FD621 /* FirstViewController.swift in Sources */,
 				601E807829507E34001FD621 /* AppDelegate.swift in Sources */,
-				601E807A29507E34001FD621 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
